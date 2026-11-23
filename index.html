@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Gran Exposición Paleontológica · Ludens Docere</title>
+<meta name="description" content="Juego de cartas de fauna prehistórica para 2 a 6 personas. Arma tu pabellón en la Gran Exposición Paleontológica Universal. Museo ilustrado, reglas y descargas.">
+<meta property="og:title" content="La Gran Exposición Paleontológica">
+<meta property="og:description" content="Arma tu pabellón con dinosaurios, mamíferos, plantas y criaturas de cuatro eras. Juego de cartas de Ludens Docere.">
+<meta property="og:image" content="img/dorso.jpg">
+<link rel="icon" href="icons/dino.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#inicio"><img src="icons/dino.png" alt=""> La Gran Exposición</a>
+  <button class="burger" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav>
+    <a href="#exposicion">La Exposición</a>
+    <a href="#como-se-juega">Cómo se juega</a>
+    <a href="#museo">Museo</a>
+    <a href="#rarezas">Gabinete de Rarezas</a>
+    <a href="#descargas">Descargas</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <div class="hero-art"><img src="img/dorso.jpg" alt="Gran avenida de pabellones de hierro y vidrio con dinosaurios en exhibición"></div>
+  <div class="hero-text">
+    <p class="kicker">Ludens Docere presenta</p>
+    <h1>La Gran Exposición<br>Paleontológica</h1>
+    <p class="lede">Es el año 19XX. Las naciones del mundo se reúnen en una Exposición Universal donde, por primera vez, el público verá con vida a los habitantes de eras pasadas. Tú diriges un pabellón: elige bien a tus ejemplares… y fíjate en lo que exhiben tus vecinos.</p>
+    <ul class="facts">
+      <li><strong>2–6</strong><span>personas</span></li>
+      <li><strong>10+</strong><span>años</span></li>
+      <li><strong>20–30</strong><span>minutos</span></li>
+      <li><strong>67</strong><span>ejemplares</span></li>
+    </ul>
+    <div class="ctas">
+      <a class="btn" href="#descargas">Descargar print &amp; play</a>
+      <a class="btn ghost" href="#museo">Visitar el museo</a>
+    </div>
+  </div>
+</section>
+
+<section id="exposicion" class="band">
+  <div class="wrap">
+    <h2 class="sec">La Exposición</h2>
+    <div class="orn">✦ ✦ ✦</div>
+    <div class="three">
+      <article>
+        <img src="icons/triasico.png" alt="">
+        <h3>Cuatro eras</h3>
+        <p>Triásico, Jurásico, Cretácico y Pleistoceno. Cada era tiene su laboratorio de clonación, su color y su símbolo.</p>
+      </article>
+      <article>
+        <img src="icons/dino.png" alt="">
+        <h3>Cuatro categorías</h3>
+        <p>Dinosaurios, mamíferos, plantas y otros animales prehistóricos: pterosaurios, reptiles marinos, cocodrilomorfos y más.</p>
+      </article>
+      <article>
+        <img src="icons/otro.png" alt="">
+        <h3>Ciencia de verdad</h3>
+        <p>Cada ejemplar es una especie real, ilustrada en acuarela dentro de su ecosistema, con datos revisados y un dato curioso.</p>
+      </article>
+    </div>
+    <div id="eras" class="eras"></div>
+  </div>
+</section>
+
+<section id="como-se-juega">
+  <div class="wrap">
+    <h2 class="sec">Cómo se juega</h2>
+    <div class="orn">✦ ✦ ✦</div>
+    <div class="rules">
+      <div class="step"><span class="n">1</span>
+        <h3>Arma tu pabellón</h3>
+        <p>Cada persona recibe 8 cartas boca abajo y las coloca en una cuadrícula de 2 × 4: son las 8 salas de su pabellón. En el centro, la <b>Galería de Laboratorios</b> muestra cartas boca arriba, y el resto forma la pila de <b>Encargos experimentales</b>. Cada quien recibe además una <b>Concesión de Pabellón</b>, su objetivo secreto… que en realidad está a la vista.</p>
+      </div>
+      <div class="step"><span class="n">2</span>
+        <h3>En tu turno, elige una opción</h3>
+        <p><b>A) Adquirir en la Galería:</b> toma una carta de la Galería, cámbiala por una de tus salas y deja en la Galería la carta que sacaste.<br>
+           <b>B) Encargo experimental:</b> roba a ciegas de los Encargos, cámbiala por una sala y manda la carta que sacaste al fondo de la pila.<br>
+           Si la sala que cambiaste ya estaba boca arriba, revela otra. Siempre terminas el turno con una sala más a la vista.</p>
+      </div>
+      <div class="step"><span class="n">3</span>
+        <h3>Mira a tus vecinos</h3>
+        <p>Los pabellones están lado a lado en la gran avenida. Tu <b>columna izquierda</b> puntúa según el pabellón de tu vecina de la izquierda; la <b>columna derecha</b>, según el de tu vecino de la derecha; las <b>dos columnas centrales</b>, según el tuyo.</p>
+      </div>
+      <div class="step"><span class="n">4</span>
+        <h3>Inauguración y jurado</h3>
+        <p>Cuando todos los pabellones tienen sus 8 salas boca arriba, se inaugura la Exposición. Cada carta suma puntos según su tipo, se agregan los bonos de las Concesiones y gana el pabellón con la mejor calificación del jurado.</p>
+      </div>
+    </div>
+    <h3 class="sub">Cinco formas de puntuar</h3>
+    <div class="types">
+      <div><b>Por categoría</b><span>Puntos por cada carta de una categoría.</span></div>
+      <div><b>Por era</b><span>Puntos por cada carta de una era.</span></div>
+      <div><b>Fijos</b><span>5 puntos, estén donde estén.</span></div>
+      <div><b>Simbiosis directa</b><span>Puntos por cada sala adyacente que cumpla.</span></div>
+      <div><b>Diversidad</b><span>1 punto por era distinta, +2 si están las cuatro.</span></div>
+    </div>
+    <p class="note">Las reglas completas, con los modos Duelo y por equipos, están en el <a href="descargas/manual_de_reglas.pdf">manual de reglas (PDF)</a>.</p>
+  </div>
+</section>
+
+<section id="museo" class="band">
+  <div class="wrap">
+    <h2 class="sec">El Museo</h2>
+    <div class="orn">✦ ✦ ✦</div>
+    <p class="center">Los 60 ejemplares de la Exposición. Toca una ilustración para abrir su ficha.</p>
+    <div class="filters" role="group" aria-label="Filtros del museo">
+      <div class="chips" id="f-era"></div>
+      <div class="chips" id="f-cat"></div>
+      <input id="f-q" type="search" placeholder="Buscar por nombre…" aria-label="Buscar ejemplar">
+    </div>
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section id="rarezas" class="dark">
+  <div class="wrap">
+    <p class="kicker light">Expansión</p>
+    <h2 class="sec light">El Gabinete de Rarezas</h2>
+    <div class="orn">✦ ✦ ✦</div>
+    <p class="center light-text">Ninguna Exposición Universal estaba completa sin su gabinete de curiosidades. Siete criaturas tan extrañas que la ciencia tardó décadas en entenderlas, y a veces las reconstruyó al revés. Solo llegan por <b>Encargo experimental</b>, no cuentan como ninguna era (salvo Atopodentatus, del Triásico) y cada una trae un poder propio. El pabellón con el mayor <b>Índice de rareza</b> gana el Premio del Público.</p>
+    <div class="grid rz" id="grid-rz"></div>
+  </div>
+</section>
+
+<section id="descargas">
+  <div class="wrap">
+    <h2 class="sec">Descargas</h2>
+    <div class="orn">✦ ✦ ✦</div>
+    <div class="dl">
+      <a href="descargas/cartas_para_imprimir.pdf" download>
+        <strong>Cartas para imprimir</strong><span>67 cartas tamaño póker + dorsos, 8 por hoja carta · PDF 15 MB</span></a>
+      <a href="descargas/manual_de_reglas.pdf" download>
+        <strong>Manual de reglas</strong><span>Una hoja carta a doble cara, plegable · PDF 1,5 MB</span></a>
+      <a href="descargas/guia_del_visitante.pdf" download>
+        <strong>Guía del visitante</strong><span>Librito con las 67 fichas, media carta, para leer en pantalla · PDF 12 MB</span></a>
+      <a href="descargas/guia_del_visitante_cuadernillo.pdf" download>
+        <strong>Guía del visitante · cuadernillo</strong><span>Lista para imprimir a doble cara, doblar y engrapar · PDF 22 MB</span></a>
+    </div>
+    <p class="note">Para el cuadernillo: imprime en hoja carta a doble cara, volteando por el borde corto. Dobla las hojas juntas por la mitad y engrapa en el centro.</p>
+  </div>
+</section>
+
+<footer>
+  <p><b>La Gran Exposición Paleontológica</b> · Diseño y textos: Gustavo Godínez Vargas · Ludens Docere, 2026</p>
+  <p class="small">Los tamaños, pesos y fechas son aproximados y se revisan con cada nuevo hallazgo científico.</p>
+</footer>
+
+<dialog id="ficha" aria-labelledby="fx-name">
+  <button class="close" aria-label="Cerrar">×</button>
+  <div class="fx">
+    <img id="fx-img" alt="">
+    <div class="fx-body">
+      <p class="fx-num" id="fx-num"></p>
+      <h3 id="fx-name"></h3>
+      <p class="fx-sci" id="fx-sci"></p>
+      <dl id="fx-dl"></dl>
+      <div class="fx-dato"><span>✦ Dato curioso</span><p id="fx-dato"></p></div>
+      <p class="fx-juego" id="fx-juego"></p>
+      <div class="fx-nav"><button id="fx-prev">← Anterior</button><button id="fx-next">Siguiente →</button></div>
+    </div>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
